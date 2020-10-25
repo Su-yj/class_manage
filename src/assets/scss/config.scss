@@ -1,0 +1,16 @@
+//颜色
+$bgColor1: #2D3643;
+$bgColor2: #292B2C;
+$bgColor3: #222425;
+//$sidebarBgColor: #323744;
+//$sidebarBgColor: #eeeeee;
+$sidebarBgColor: #304156;
+$sidebarHoverColor: #424952;
+$sidebarTextColor: #ADBCC9;
+$sidebarActiveTextColor: #ffd04b;
+
+:export {
+  sidebarBgColor: $sidebarBgColor;
+  sidebarTextColor: $sidebarTextColor;
+  sidebarActiveTextColor: $sidebarActiveTextColor;
+}

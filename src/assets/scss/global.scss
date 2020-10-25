@@ -1,0 +1,27 @@
+html, body, #app {
+  width: 100%;
+  height: 100%;
+  //background: #485058;
+  //color: #B1ABA2;
+  overflow: hidden;
+}
+
+.export-button {
+  float: right;
+}
+
+.el-pagination {
+  padding-top: 20px !important;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.month-button-group>button {
+  padding: 7px;
+  background-color: #2C3E50;
+  border-color: #2C3E50;
+  &:hover, &:focus {
+    background-color: #1E2B37;
+    border-color: #2C3E50;
+  }
+}

@@ -1,0 +1,90 @@
+@charset "utf-8";
+@import "./variable"; // 引入变量
+
+@mixin add-size($size){
+  font-size: $size;
+  [data-size="9"] & {
+    font-size: $font_size_9;
+  }
+  [data-size="10"] & {
+    font-size: $font_size_10;
+  }
+  [data-size="11"] & {
+    font-size: $font_size_11;
+  }
+  [data-size="12"] & {
+    font-size: $font_size_12;
+  }
+  [data-size="13"] & {
+    font-size: $font_size_13;
+  }
+  [data-size="14"] & {
+    font-size: $font_size_14;
+  }
+  [data-size="15"] & {
+    font-size: $font_size_15;
+  }
+  [data-size="16"] & {
+    font-size: $font_size_16;
+  }
+  [data-size="17"] & {
+    font-size: $font_size_17;
+  }
+  [data-size="18"] & {
+    font-size: $font_size_18;
+  }
+  [data-size="19"] & {
+    font-size: $font_size_19;
+  }
+  [data-size="20"] & {
+    font-size: $font_size_20;
+  }
+  [data-size="21"] & {
+    font-size: $font_size_21;
+  }
+}
+
+@mixin schedule-tool-triangle-same () {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  font-size: 0;     /*是因为, 虽然宽高度为0, 但在IE6下会具有默认的 */
+  line-height: 0;  /* 字体大小和行高, 导致盒子呈现被撑开的长矩形 */
+  content: ''; /*伪类下的属性*/
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+@mixin schedule-tool-triangle-before(){
+  @include schedule-tool-triangle-same();
+  [triangle-site='top'] & {
+    top: -20px;
+    border: 10px;
+    border-style: dashed dashed solid dashed;
+    border-color: transparent transparent $schedule_tool_border_color transparent;
+  }
+  [triangle-site='bottom'] & {
+    bottom: -20px;
+    border: 10px;
+    border-style: dashed dashed solid dashed;
+    border-color: $schedule_tool_border_color transparent transparent transparent;
+  }
+}
+
+@mixin schedule-tool-triangle-after(){
+  @include schedule-tool-triangle-same();
+  [triangle-site='top'] & {
+    top: -18px;
+    border: 9px;
+    border-style: solid dashed dashed dashed;
+    border-color: transparent transparent $schedule_tool_bg_color transparent;
+  }
+  [triangle-site='bottom'] & {
+    bottom: -18px;
+    border: 9px;
+    border-style: solid dashed dashed dashed;
+    border-color: $schedule_tool_bg_color transparent transparent transparent;
+  }
+}

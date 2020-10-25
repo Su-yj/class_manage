@@ -1,0 +1,93 @@
+{
+  "id": "2035174",
+  "name": "class_manage",
+  "font_family": "iconfont",
+  "css_prefix_text": "el-icon-third-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1079495",
+      "name": "其他收入",
+      "font_class": "qitashouru",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "796947",
+      "name": "托管",
+      "font_class": "tuoguan",
+      "unicode": "e700",
+      "unicode_decimal": 59136
+    },
+    {
+      "icon_id": "6664158",
+      "name": "eye",
+      "font_class": "eye",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "6901018",
+      "name": "eye",
+      "font_class": "eye1",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "16565727",
+      "name": "最大化",
+      "font_class": "zuidahua2",
+      "unicode": "e75e",
+      "unicode_decimal": 59230
+    },
+    {
+      "icon_id": "534378",
+      "name": "课程表",
+      "font_class": "kechengbiao",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "941658",
+      "name": "最大化",
+      "font_class": "zuidahua",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "1013146",
+      "name": "老师",
+      "font_class": "jiaolian1",
+      "unicode": "e69d",
+      "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "2019094",
+      "name": "学生",
+      "font_class": "xuesheng",
+      "unicode": "e7c0",
+      "unicode_decimal": 59328
+    },
+    {
+      "icon_id": "3930499",
+      "name": "学生",
+      "font_class": "xuesheng1",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "6802049",
+      "name": "Student",
+      "font_class": "Student",
+      "unicode": "e707",
+      "unicode_decimal": 59143
+    },
+    {
+      "icon_id": "7450620",
+      "name": "课程管理",
+      "font_class": "kechengguanli",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    }
+  ]
+}
