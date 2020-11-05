@@ -4,5 +4,7 @@
 
 初始登录账号密码：admin / 123456 （ps：可自行修改config.json文件进行修改）
 
+系列教程地址：https://www.jianshu.com/nb/48293259
+
 效果演示：
 ![](https://github.com/Su-yj/class_manage/blob/main/docs/%E6%BC%94%E7%A4%BA.gif?raw=true)
